@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form creation</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Form creatoin:</h3>
+    <form>
+        <label for="name">Your name
+            <input id="name" type="text" placeholder="Your name">
+        </label>
+        
+        <label for="email">Your email
+            <input id="email" type="email" placeholder="Your email">
+        </label>
+        <label for="Phone">Your mobile
+            <input id="Phone" type="number" placeholder="Your number">
+        </label>
+        <fieldset>
+            <legend>Pick one</legend>
+            <label for="lambogini">
+                <input type="radio" name="car" id="lambogini">
+                lambogini
+            </label>
+            <label for="audi">
+                <input type="radio" name="car" id="audi">
+                Audi
+            </label>
+            <label for="bugatti">
+                <input type="radio" name="car" id="bugatti">
+                Bugatti
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>One or more company</legend>
+            <label for="Volkswagen Group">
+                <input type="checkbox" name="company" id="Volkswagen Group">
+                Volkswagen Group
+            </label>
+            <label for="jean bugatti">
+                <input type="checkbox" name="company" id="jean bugatti">
+                Jean Bugatti
+            </label>
+            <label for="ducati">
+                <input type="checkbox" name="company" id="ducati">
+                Ducati
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>spacial Instruction</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="cancel">
+        <input type="submit" value="submit">
+        
+    </form>
+</body>
+</html>

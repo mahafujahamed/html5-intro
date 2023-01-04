@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table creation</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 2px solid red;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body style="background-color:yellow;">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">Home</a></li>
+                <li>
+                    <a href="seamntic.html">semantic</a>
+                    <ul class="dropdown">
+                        <li><a href="form.html">Home</a></li>
+                        <li><a href="seamntic.html">semantic</a></li>
+                        <li><a href="audio-vedio.html">media</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="audio-vedio.html">media</a>
+                    <ul class="dropdown">
+                        <li><a href="form.html">Home</a></li>
+                        <li>
+                            <a href="seamntic.html">semantic</a>
+                            <ul class="dropdown">
+                                <li><a href="form.html">Home</a></li>
+                                <li><a href="seamntic.html">semantic</a></li>
+                                <li><a href="audio-vedio.html">media</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="audio-vedio.html">media</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <caption><strong><big>Billionare info</big></strong></caption>
+        <tbody>
+            <thead>
+                <tr style="background-color: blue;">
+                    <th>No.</th>
+                    <th>Full name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>Bill gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1002</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Zakarberg</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
